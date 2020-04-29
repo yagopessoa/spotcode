@@ -1,6 +1,6 @@
 import React from 'react';
 import { Columns } from 'react-bulma-components';
-import SectionWrapper from '../../components/common/SectionWrapper';
+import SectionWrapper from '../../components/Common/SectionWrapper';
 import { MainHeading, DescriptionList, SubscribeButton } from './Home.styles';
 
 const HomeScreen = () => {

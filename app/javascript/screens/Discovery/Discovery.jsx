@@ -1,10 +1,15 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import NavbarFooter from '../../components/Common/NavbarFooter';
+import SectionWrapper from '../../components/Common/SectionWrapper';
+import DiscoveryComponent from '../../components/Discovery/DiscoveryComponent';
 
 const DiscoveryScreen = () => {
   return (
     <>
-      <div>Discovery Screen</div>
+      <SectionWrapper>
+        <DiscoveryComponent />
+      </SectionWrapper>
+      <NavbarFooter />
     </>
   );
 };

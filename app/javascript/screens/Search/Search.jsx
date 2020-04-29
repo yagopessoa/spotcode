@@ -1,10 +1,13 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import NavbarFooter from '../../components/Common/NavbarFooter';
 
 const SearchScreen = () => {
   return (
     <>
-      <div>Search Screen</div>
+      <div style={{ margin: 50, fontWeight: 600, color: 'white' }}>
+        Search Screen
+      </div>
+      <NavbarFooter />
     </>
   );
 };
