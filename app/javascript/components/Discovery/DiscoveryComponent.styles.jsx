@@ -4,7 +4,7 @@ import {
   Columns as ColumnsRaw,
 } from 'react-bulma-components';
 
-export const DivVspaced = styled.div`
+export const DivVSpaced = styled.div`
   margin: 50px 0px;
 `;
 

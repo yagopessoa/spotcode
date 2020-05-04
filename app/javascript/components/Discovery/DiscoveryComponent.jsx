@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 import {
-  DivVspaced,
+  DivVSpaced,
   Heading,
   Columns,
   AlbumsColumn,
-} from "./DiscoveryComponent.styles";
-import AlbumComponent from "../Album/AlbumComponent";
-import AlbumService from "../../services/Albums";
+} from './DiscoveryComponent.styles';
+import AlbumComponent from '../Album/AlbumComponent';
+import AlbumService from '../../services/Albums';
 
 const DiscoveryComponent = () => {
   const [recentAlbums, setRecentAlbums] = useState([]);
@@ -40,10 +40,10 @@ const DiscoveryComponent = () => {
         <Heading>Tocadas recentemente</Heading>
         <Columns>{renderAlbums(recentAlbums)}</Columns>
       </div>
-      <DivVspaced>
+      <DivVSpaced>
         <Heading>Recomendadas</Heading>
         <Columns>{renderAlbums(recommendAlbums)}</Columns>
-      </DivVspaced>
+      </DivVSpaced>
     </>
   );
 };

@@ -1,10 +1,15 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import NavbarFooter from '../../components/Common/NavbarFooter';
+import SectionWrapper from '../../components/Common/SectionWrapper';
+import Albums from '../../components/Albums/Albums';
 
 const AlbumScreen = () => {
   return (
     <>
-      <div>Album Screen</div>
+      <SectionWrapper>
+        <Albums />
+      </SectionWrapper>
+      <NavbarFooter />
     </>
   );
 };
